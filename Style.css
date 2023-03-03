@@ -50,7 +50,7 @@ body {
 .slider-frame {
     overflow: hidden;
     height: 650px;
-    width: 1400px;
+    width: 1020px;
     margin-left: 10px;
     margin-top: 10px
 }
@@ -100,12 +100,11 @@ body {
 
 #navigation li {
     padding: 0 10px;
-    font-size: 23px;
+    font-size: 17px;
 }
 
 #navigation li a {
     color: #000000;
-    font-size: 20px;
 }
 
 #navigation li a:hover {
