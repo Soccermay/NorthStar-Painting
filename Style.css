@@ -11,20 +11,20 @@ body {
 }
 
 .image2 {
-    width: 1050px;
+    width: 1250px;
     height: 670px;
     filter: brightness(120%);
     filter: contrast(130%);
 }
 
 .image3 {
-    width: 1000px;
+    width: 1200px;
     filter: brightness(140%);
     filter: contrast(120%);
 }
 
 .image4 {
-    width: 1000px;
+    width: 1200px;
     filter: brightness(90%);
     filter: contrast(100%);
 }
@@ -104,6 +104,7 @@ body {
 
 #navigation li a {
     color: #000000;
+    font-size: 20px;
 }
 
 #navigation li a:hover {
