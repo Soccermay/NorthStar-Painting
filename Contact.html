@@ -36,7 +36,7 @@
 </p>
       <!--Start of Contact Section-->
     <div class="container">
-      <form class="form" action="https://formsubmit.co/e7781ae78c39823657f5065db1603490" method="POST">
+      <form class="form" action="mail.php" method="post" autoloader="off">
         <h3>Get in touch!</h3>
           <label for="name"></label>
           <input type="text" name="name" id="name" placeholder="Your Name" required>
@@ -48,7 +48,7 @@
           <input type="text" name="phone" id="phone" placeholder="Phone number" required>
 
           <label for="message"></label>
-          <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+          <textarea id="message" name="message" rows="4" placeholder="How can we help you?"></textarea>
           <button type="submit">Send</button>
       </form>
     </div>
