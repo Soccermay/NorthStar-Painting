@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:azure;
+    text-align: center;
+}
+
+p {
+    font-size: 40px;
+    line-height: 70px;
+}
+
+a {
+    color: #828282;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.back {
+    font-size: 32px;
+}

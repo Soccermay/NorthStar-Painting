@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 'Cormorant SC', serif;
+}
+
+.img1 {
+    width: 1033px;
+    height: 600px;
+    filter: contrast(110%);
+    filter: brightness(90%);
+    background-size: contain;
+    border: 1px solid black;
+}
+
+h4 {
+    font-size: 34px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/*--------Navigation Section-------*/
+
+.image1 {
+    width: 80px;
+    height: 80px;
+}
+
+#navigation {
+    background-color: #C6C6C6;
+    padding: 15px 15px;
+    z-index: 100;
+    width: 100%;
+}
+
+#navigation li {
+    padding: -5px 10px;
+    display: inline-block;
+}
+
+#navigation li a {
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#navigation li a:hover {
+    color: ghostwhite;
+}
+
+.navbar-brand,
+.navbar-brand:hover{
+    color: rgb(26, 24, 22);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.header-social-links {
+    padding-left: 15px;
+}
+
+.header-social-links a {
+    color: #000000;
+    padding-left: 5px;
+}
+
+/*----------Contact form------------*/
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 2.2rem;
+} 
+
+.form  h3 {
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.form input, .form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+}
+
+.form button {
+    padding: 15px;
+    background: #ff5361;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 2rem;
+}
+/*======Footer section========*/
+
+.footer {
+    margin-top: 60px;
+    width: 100%;
+    padding: 40px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer div {
+    text-align: center;
+}
+
+.col-2 {
+    flex-grow: 2;
+}
+
+.footer div h3 {
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 1;
+}
+
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 250px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -5px;
+    margin-bottom: 15px;
+    outline: none;
+    border: none;
+}
+
+form .btn {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    width: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    color: #000000;
+    background-color: #efefef;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons i{
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/*---------Copyright Section--------*/
+.footer-bottom {
+    text-align: center;
+    background-color: #333;
+    color: ghostwhite;
+    padding: 13px;
+}

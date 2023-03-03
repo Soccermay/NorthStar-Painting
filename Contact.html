@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="Contact.css">
+    <script src="https://kit.fontawesome.com/9ac2112319.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;600&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Navigation Section-->
+    <nav id="navigation" class="navbar navbar-expand-lg">
+        <img src="images/1.jpg" class="image1">
+        <a href="index.html" class="navbar-brand">NorthStar Painting Services, LLC</a>
+        <button class="navbar-toggler"type="button"data-toggle="collapse"data-label="Toggle navigation">
+        </button>
+        <div class="collapse navbar-collapse"id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link"></a>
+            </li>
+            <li class="nav-item">
+              <a href="Gallery.html" class="nav-link"></a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <!--End of Navigation Section-->
+    <img src="images/pic1.jpeg" alt="hello" class="img1">
+
+<h4>Contact Us!</h4>
+<p class="paragraph">Thank for you visiting our page! Feel free to ask any questions you may have below
+  to get in touch. 
+</p>
+      <!--Start of Contact Section-->
+    <div class="container">
+      <form class="form" method="POST" action="send-email.php">
+        <h3>Get in touch!</h3>
+          <label for="name"></label>
+          <input type="text" name="name" id="name" placeholder="Your Name" required>
+
+          <label for="email"></label>
+          <input type="email" name="email" id="email" placeholder="Your Email" required>
+
+          <label for="phone"></label>
+          <input type="text" name="phone" id="phone" placeholder="Phone number" required>
+
+          <label for="message"></label>
+          <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+          <button type="submit">Send</button>
+      </form>
+    </div>
+
+
+      <!--End of Contact Section-->
+
+     <!---Start of Footer section-->
+     <div class="footer">
+        <div class="col-1">
+          <h3>Useful Links</h3>
+          <a href="#">About</a>
+          <a href="index.html">Services</a>
+          <a href="Gallery.html">Gallery</a>
+        </div>
+        <div class="col-2">
+          <h3>Newsletter</h3>
+          <form>
+            <input type="email" placeholder="Your Email Address" required><br>
+            <button type="submit" class="btn">SUBSCRIBE</button>
+          </form>
+        </div>
+        <div class="col-3">
+          <h3>Contact</h3>
+          <p>Joel Moncada
+            Owner<br>
+            C: 651-239-4319<br>        
+            P.O. Box 18012<br>
+            Saint Paul, MN, 55118</p>
+            <div class="social-icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-linkedin"></i>
+            </div>
+        </div>
+       </div>
+       <div class="footer-bottom">
+        <p>Copyright &copy;2023 NorthStar Painting Services. All Rights Reserved. <br>Designed by Brandon Torres</p>
+      </div>
+  <!---End of Footer section-->  
+    <script></script>
+</body>
+</html>
