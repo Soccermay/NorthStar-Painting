@@ -11,20 +11,20 @@ body {
 }
 
 .image2 {
-    width: 1250px;
+    width: 1050px;
     height: 670px;
     filter: brightness(120%);
     filter: contrast(130%);
 }
 
 .image3 {
-    width: 1200px;
+    width: 1050px;
     filter: brightness(140%);
     filter: contrast(120%);
 }
 
 .image4 {
-    width: 1200px;
+    width: 1050px;
     filter: brightness(90%);
     filter: contrast(100%);
 }
@@ -100,7 +100,7 @@ body {
 
 #navigation li {
     padding: 0 10px;
-    font-size: 30px;
+    font-size: 23px;
 }
 
 #navigation li a {
