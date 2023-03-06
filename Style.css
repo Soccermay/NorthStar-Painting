@@ -50,7 +50,7 @@ body {
 .slider-frame {
     overflow: hidden;
     height: 650px;
-    width: 1250px;
+    width: 1300px;
     margin-left: 10px;
     margin-top: 10px
 }
@@ -83,7 +83,7 @@ body {
 
 .img-container {
     height: 800px;
-    width: 1200px;
+    width: 1280px;
     position: relative;
     float: left;
 }
