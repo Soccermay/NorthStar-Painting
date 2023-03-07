@@ -11,20 +11,20 @@ body {
 }
 
 .image2 {
-    width: 1250px;
+    width: 1230px;
     height: 670px;
     filter: brightness(120%);
     filter: contrast(130%);
 }
 
 .image3 {
-    width: 1250px;
+    width: 1230px;
     filter: brightness(140%);
     filter: contrast(120%);
 }
 
 .image4 {
-    width: 1250px;
+    width: 1230px;
     filter: brightness(90%);
     filter: contrast(100%);
 }
