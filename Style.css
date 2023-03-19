@@ -250,6 +250,20 @@ h2 {
 
 /*======Footer section========*/
 
+/*Colour section */
+.colour {
+    text-align: center;
+    font-size: 21px;
+    line-height: 24px;
+}
+
+.heading {
+    font-size: 44px;
+    margin-top: 31px;
+    text-shadow: #3fb1fd 2px 2px;
+}
+/*end of colour section */
+
 .footer {
     margin-top: 60px;
     width: 100%;
