@@ -341,3 +341,36 @@ form button:hover {
     color: ghostwhite;
     padding: 13px;
 }
+
+@media (max-width: 480px) {
+    .footer
+    {
+        font-size: 13px;
+        justify-content: space-between;
+        display: flex;
+        height: 50vh;
+    }
+    .footer div h3 {
+        font-size: 20px;
+        padding: 5px;
+        line-height: 1.3;
+    }
+    .col-2 h3 {
+        margin-left: -20px;
+    }
+    form input {
+        border-radius: 1rem;
+        padding: 10px;
+        width: 100px;
+        margin-left: -25px;
+    }
+    form button {
+        width: 75px;
+        font-size: 10px;
+        margin-left: -25px;
+    }
+    .col-3 p {
+        line-height: 1.2;
+        word-spacing: 1;
+    }
+}
